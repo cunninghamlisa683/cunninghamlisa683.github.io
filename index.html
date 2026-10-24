@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>揽菊天下｜深度内容引擎 · 数据驱动的创作与分发平台</title>
+    <meta name="description" content="揽菊天下是专注于深度内容生产与分发的智能平台，覆盖深度观察、人物特写、数据洞察与前沿趋势四大核心板块。平台汇聚行业专家与独立创作者，以数据驱动内容策略，为读者提供经过验证的高质量信息。每日更新深度文章，涵盖科技趋势、商业分析、人物故事与行业报告，帮助读者在海量信息中快速获取有价值的洞察。">
+    <meta name="keywords" content="揽菊天下,深度内容,内容平台,深度观察,人物特写,数据洞察,前沿趋势,内容创作">
+    <link rel="canonical" href="https://ljtx.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:title" content="揽菊天下｜深度内容引擎 · 数据驱动的创作与分发平台">
+    <meta property="og:description" content="揽菊天下是专注于深度内容生产与分发的智能平台，覆盖深度观察、人物特写、数据洞察与前沿趋势四大核心板块。平台汇聚行业专家与独立创作者，以数据驱动内容策略，为读者提供经过验证的高质量信息。每日更新深度文章，涵盖科技趋势、商业分析、人物故事与行业报告。">
+    <meta property="og:url" content="https://ljtx.pages.dev/">
+    <meta property="og:site_name" content="揽菊天下">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="揽菊天下｜深度内容引擎 · 数据驱动的创作与分发平台">
+    <meta name="twitter:description" content="揽菊天下是专注于深度内容生产与分发的智能平台，覆盖深度观察、人物特写、数据洞察与前沿趋势四大核心板块。每日更新深度文章，数据驱动内容策略，为读者提供经过验证的高质量信息。">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "揽菊天下",
+            "url": "https://ljtx.pages.dev",
+            "description": "揽菊天下是专注于深度内容生产与分发的智能平台，覆盖深度观察、人物特写、数据洞察与前沿趋势四大核心板块。",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://ljtx.pages.dev/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "揽菊天下",
+                "url": "https://ljtx.pages.dev"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/vendor/bulma/bulma.min.css">
+    
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://ljtx.pages.dev/","title":"揽菊天下｜深度内容引擎 · 数据驱动的创作与分发平台","pubDate":"2026-10-23T11:49:43","upDate":"2026-10-23T11:49:43"}</script>
+<link rel="stylesheet" href="assets/adr94x.css">
+</head>
+<body>
+
+    <!-- ==================== 导航栏 ==================== -->
+    <nav class="navbar site-navbar" role="navigation" aria-label="主导航">
+        <div class="container-custom" style="display:flex;align-items:center;width:100%;height:100%;">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-logo" aria-label="揽菊天下首页">
+                    <span class="logo-icon">揽</span>
+                    <span>揽菊天下</span>
+                </a>
+            </div>
+            <button class="navbar-burger" id="navbarBurger" aria-label="菜单" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-menu" id="navbarMenu">
+                <div class="navbar-start">
+                    <a href="/" class="nav-link nav-active">首页</a>
+                    <a href="#depth-observe" class="nav-link">深度观察</a>
+                    <a href="#people-feature" class="nav-link">人物特写</a>
+                    <a href="#data-insight" class="nav-link">数据洞察</a>
+                    <a href="#trend-frontier" class="nav-link">前沿趋势</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="lang-switch" aria-label="语言切换">
+                        <button class="lang-btn lang-active" aria-pressed="true">中文</button>
+                        <button class="lang-btn" aria-pressed="false">EN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== Hero首屏 ==================== -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+        <div class="container-custom">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <h1 id="hero-heading">揽菊天下：每一条内容，都有<span class="highlight">数据</span>撑腰</h1>
+                    <p class="hero-sub">覆盖深度观察、人物特写、数据洞察与前沿趋势的智能内容平台。我们坚持内容质量优先，用数据验证每一篇文章的价值，为读者提供经得起推敲的深度信息。</p>
+                    <div class="hero-stats-row">
+                        <div class="hero-stat">
+                            <div class="stat-num">12,847</div>
+                            <div class="stat-label">累计深度文章</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="stat-num">580万+</div>
+                            <div class="stat-label">月度阅读量</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="stat-num">1,200+</div>
+                            <div class="stat-label">活跃创作者</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-search-card">
+                    <div class="search-label">搜索揽菊天下的内容库</div>
+                    <div class="search-row">
+                        <input type="search" placeholder="输入关键词，查找深度内容…" aria-label="搜索内容">
+                        <button class="btn-search" type="button">搜索</button>
+                    </div>
+                    <div class="search-hints">
+                        <span class="search-hint-tag">内容趋势</span>
+                        <span class="search-hint-tag">行业报告</span>
+                        <span class="search-hint-tag">人物专访</span>
+                        <span class="search-hint-tag">数据分析</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- ===== 板块：平台数据概览 ===== -->
+        <section class="section-block" aria-labelledby="stats-heading">
+            <div class="container-custom">
+                <h2 class="sr-only" id="stats-heading">平台数据概览</h2>
+                <div class="stats-cards-row">
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-green">📄</div>
+                        <div class="stat-card-value">12,847</div>
+                        <div class="stat-card-label">内容资产总量（篇）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-blue">📅</div>
+                        <div class="stat-card-value">326</div>
+                        <div class="stat-card-label">本月新发布内容</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-green">👁️</div>
+                        <div class="stat-card-value">580万+</div>
+                        <div class="stat-card-label">月均总阅读量</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-amber">⭐</div>
+                        <div class="stat-card-value">94.7%</div>
+                        <div class="stat-card-label">内容质量平均分</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：内容管理中心 - 工具栏 ===== -->
+        <section class="section-block section-alt" aria-labelledby="content-mgr-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="content-mgr-heading">
+                        <span class="title-dot"></span>内容管理中心
+                    </h2>
+                </div>
+                <div class="content-table-toolbar">
+                    <span class="toolbar-title">全部内容</span>
+                    <button class="btn-batch" type="button">批量发布</button>
+                    <button class="btn-batch btn-batch-danger" type="button">批量归档</button>
+                    <select aria-label="按状态筛选">
+                        <option value="">全部状态</option>
+                        <option value="published">已发布</option>
+                        <option value="review">审核中</option>
+                        <option value="draft">草稿</option>
+                        <option value="revision">需修改</option>
+                    </select>
+                    <select aria-label="按分类筛选">
+                        <option value="">全部分类</option>
+                        <option value="depth">深度观察</option>
+                        <option value="people">人物特写</option>
+                        <option value="data">数据洞察</option>
+                        <option value="trend">前沿趋势</option>
+                    </select>
+                </div>
+
+                <!-- 数据行列表 -->
+                <ul class="data-row-list" aria-label="内容列表">
+                    <!-- 行1 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">揽菊天下｜2026年内容生态全景报告：AI驱动下的创作新范式</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">GD</span></div>
+                        <div class="col-meta"><span>2026-01-15</span><span>15m28s</span><span>3,746字</span></div>
+                        <div class="col-status"><span class="badge-status status-published">已发布</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行2 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">深度解析：揽菊天下如何用数据重塑内容生产流程</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">SJ</span></div>
+                        <div class="col-meta"><span>2026-01-14</span><span>22m10s</span><span>5,120字</span></div>
+                        <div class="col-status"><span class="badge-status status-published">已发布</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行3 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">揽菊天下数据观察：第三季度内容消费趋势深度变化</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">SJ</span></div>
+                        <div class="col-meta"><span>2026-01-13</span><span>18m45s</span><span>4,280字</span></div>
+                        <div class="col-status"><span class="badge-status status-review">审核中</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行4 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">从0到100万：揽菊天下平台上的爆款内容方法论拆解</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">GD</span></div>
+                        <div class="col-meta"><span>2026-01-12</span><span>25m33s</span><span>6,890字</span></div>
+                        <div class="col-status"><span class="badge-status status-published">已发布</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行5 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">揽菊天下人物特写：专访独立创作者周明辉的十年写作路</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">RW</span></div>
+                        <div class="col-meta"><span>2026-01-11</span><span>19m02s</span><span>4,560字</span></div>
+                        <div class="col-status"><span class="badge-status status-published">已发布</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行6 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">揽菊天下趋势报告：短视频与长文内容的融合边界正在消失</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">QY</span></div>
+                        <div class="col-meta"><span>2026-01-10</span><span>14m50s</span><span>3,200字</span></div>
+                        <div class="col-status"><span class="badge-status status-revision">需修改</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行7 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">揽菊天下内容工场：批量生产高质量内容的底层逻辑</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">GD</span></div>
+                        <div class="col-meta"><span>2026-01-09</span><span>20m15s</span><span>5,430字</span></div>
+                        <div class="col-status"><span class="badge-status status-draft">草稿</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                    <!-- 行8 -->
+                    <li class="data-row">
+                        <div class="col-check"><input type="checkbox" aria-label="选择此条内容"></div>
+                        <div class="col-title"><span class="row-title"><a href="#">数据说话：揽菊天下平台内容质量评分体系全面揭秘</a></span></div>
+                        <div class="col-cat"><span class="badge-cat">SJ</span></div>
+                        <div class="col-meta"><span>2026-01-08</span><span>16m40s</span><span>3,980字</span></div>
+                        <div class="col-status"><span class="badge-status status-published">已发布</span></div>
+                        <div class="col-actions">
+                            <button class="btn-row btn-row-primary" type="button">查看</button>
+                            <button class="btn-row" type="button">编辑</button>
+                            <button class="btn-row btn-row-danger" type="button">删除</button>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 分页条 -->
+                <div class="pagination-bar" aria-label="分页导航">
+                    <button class="page-btn page-disabled" disabled aria-label="上一页">‹</button>
+                    <button class="page-btn page-active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <button class="page-btn">4</button>
+                    <button class="page-btn">5</button>
+                    <button class="page-btn" aria-label="下一页">›</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：深度观察专题入口 ===== -->
+        <section class="section-block" id="depth-observe" aria-labelledby="depth-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="depth-heading">揽菊天下<span class="title-dot"></span>深度观察
+                    </h2>
+                    <a href="#depth-observe" class="section-more">查看更多深度内容 →</a>
+                </div>
+                <div class="topic-grid">
+                    <article class="topic-card">
+                        <span class="topic-card-tag">深度观察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下｜2026内容生态全景：AI如何改写创作规则</a></h3>
+                        <p class="topic-card-meta">2026-01-15 · 阅读 12.8K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">深度观察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下内容策略复盘：数据驱动的选题方法论</a></h3>
+                        <p class="topic-card-meta">2026-01-12 · 阅读 9.3K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">深度观察</span>
+                        <h3 class="topic-card-title"><a href="#">从揽菊天下看中文深度阅读平台的进化路径</a></h3>
+                        <p class="topic-card-meta">2026-01-08 · 阅读 7.6K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">深度观察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下内容品控体系：质量与效率的平衡艺术</a></h3>
+                        <p class="topic-card-meta">2026-01-03 · 阅读 6.2K</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：人物特写专题入口 ===== -->
+        <section class="section-block section-alt" id="people-feature" aria-labelledby="people-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="people-heading">
+                        <span class="title-dot"></span>人物特写
+                    </h2>
+                    <a href="#people-feature" class="section-more">查看更多人物故事 →</a>
+                </div>
+                <div class="topic-grid">
+                    <article class="topic-card">
+                        <span class="topic-card-tag">人物特写</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下专访周明辉：十年坚持深度写作的人</a></h3>
+                        <p class="topic-card-meta">2026-01-11 · 阅读 8.4K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">人物特写</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下创作者林晓：用数据讲好每一个故事</a></h3>
+                        <p class="topic-card-meta">2026-01-06 · 阅读 6.9K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">人物特写</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下编辑部幕后：一群较真的人如何工作</a></h3>
+                        <p class="topic-card-meta">2025-12-28 · 阅读 10.1K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">人物特写</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下年度创作者：五位不容错过的深度作者</a></h3>
+                        <p class="topic-card-meta">2025-12-20 · 阅读 7.3K</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：数据洞察专题入口 ===== -->
+        <section class="section-block" id="data-insight" aria-labelledby="data-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="data-heading">
+                        <span class="title-dot"></span>数据洞察
+                    </h2>
+                    <a href="#data-insight" class="section-more">查看更多数据报告 →</a>
+                </div>
+                <div class="topic-grid">
+                    <article class="topic-card">
+                        <span class="topic-card-tag">数据洞察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下Q3数据报告：内容消费的五个关键变化</a></h3>
+                        <p class="topic-card-meta">2026-01-13 · 阅读 11.2K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">数据洞察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下阅读行为分析：用户偏爱多长的文章</a></h3>
+                        <p class="topic-card-meta">2026-01-07 · 阅读 8.7K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">数据洞察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下平台数据：哪些话题正在快速崛起</a></h3>
+                        <p class="topic-card-meta">2025-12-30 · 阅读 9.5K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">数据洞察</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下内容质量与阅读量的相关性分析</a></h3>
+                        <p class="topic-card-meta">2025-12-22 · 阅读 6.8K</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：前沿趋势专题入口 ===== -->
+        <section class="section-block section-alt" id="trend-frontier" aria-labelledby="trend-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="trend-heading">
+                        <span class="title-dot"></span>前沿趋势
+                    </h2>
+                    <a href="#trend-frontier" class="section-more">查看更多趋势分析 →</a>
+                </div>
+                <div class="topic-grid">
+                    <article class="topic-card">
+                        <span class="topic-card-tag">前沿趋势</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下趋势观察：短视频与长文的边界正在消失</a></h3>
+                        <p class="topic-card-meta">2026-01-10 · 阅读 7.9K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">前沿趋势</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下展望：AI辅助创作将如何改变内容行业</a></h3>
+                        <p class="topic-card-meta">2026-01-04 · 阅读 10.4K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">前沿趋势</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下发现：订阅制深度内容正在全球复兴</a></h3>
+                        <p class="topic-card-meta">2025-12-26 · 阅读 8.1K</p>
+                    </article>
+                    <article class="topic-card">
+                        <span class="topic-card-tag">前沿趋势</span>
+                        <h3 class="topic-card-title"><a href="#">揽菊天下研判：2026年最值得关注的五个内容方向</a></h3>
+                        <p class="topic-card-meta">2025-12-18 · 阅读 12.3K</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：热门内容排行 ===== -->
+        <section class="section-block" aria-labelledby="rank-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="rank-heading">
+                        <span class="title-dot"></span>热门内容排行
+                    </h2>
+                </div>
+                <ol class="rank-list">
+                    <li>
+                        <span class="rank-num">01</span>
+                        <div class="rank-info">
+                            <div class="rank-title"><a href="#">揽菊天下｜2026年内容生态全景报告：AI驱动下的创作新范式</a></div>
+                        </div>
+                        <span class="rank-views">12.8K 阅读</span>
+                    </li>
+                    <li>
+                        <span class="rank-num">02</span>
+                        <div class="rank-info">
+                            <div class="rank-title"><a href="#">揽菊天下研判：2026年最值得关注的五个内容方向</a></div>
+                        </div>
+                        <span class="rank-views">12.3K 阅读</span>
+                    </li>
+                    <li>
+                        <span class="rank-num">03</span>
+                        <div class="rank-info">
+                            <div class="rank-title"><a href="#">揽菊天下Q3数据报告：内容消费的五个关键变化</a></div>
+                        </div>
+                        <span class="rank-views">11.2K 阅读</span>
+                    </li>
+                    <li>
+                        <span class="rank-num">04</span>
+                        <div class="rank-info">
+                            <div class="rank-title"><a href="#">揽菊天下展望：AI辅助创作将如何改变内容行业</a></div>
+                        </div>
+                        <span class="rank-views">10.4K 阅读</span>
+                    </li>
+                    <li>
+                        <span class="rank-num">05</span>
+                        <div class="rank-info">
+                            <div class="rank-title"><a href="#">揽菊天下编辑部幕后：一群较真的人如何工作</a></div>
+                        </div>
+                        <span class="rank-views">10.1K 阅读</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ===== 板块：创作者入驻CTA ===== -->
+        <section class="cta-section" aria-labelledby="cta-heading">
+            <div class="container-custom">
+                <div class="cta-inner">
+                    <div class="cta-text">
+                        <h2 id="cta-heading">加入揽菊天下，让深度内容触达更多读者</h2>
+                        <p>我们为独立创作者提供数据工具、编辑支持和流量分发。提交你的作品，成为揽菊天下认证创作者。</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="#" class="btn-cta btn-cta-white">提交作品</a>
+                        <a href="#" class="btn-cta btn-cta-outline">了解创作者计划</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 板块：内容更新动态（简要列表） ===== -->
+        <section class="section-block section-alt" aria-labelledby="updates-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="updates-heading">
+                        <span class="title-dot"></span>最近更新
+                    </h2>
+                    <span class="section-more text-muted" style="font-size:0.82rem;">每日更新 · 质量审核通过后即时发布</span>
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                    <div style="background:#fff;border:1px solid var(--border-light);border-radius:var(--radius-md);padding:14px 16px;display:flex;align-items:center;gap:12px;">
+                        <span style="font-size:0.7rem;font-weight:700;color:var(--primary);background:var(--primary-light);padding:3px 8px;border-radius:10px;white-space:nowrap;flex-shrink:0;">新发布</span>
+                        <span style="font-weight:500;font-size:0.9rem;color:var(--text);">揽菊天下创作者社区正式开放申请</span>
+                        <span style="margin-left:auto;font-size:0.75rem;color:var(--text-muted);white-space:nowrap;">2小时前</span>
+                    </div>
+                    <div style="background:#fff;border:1px solid var(--border-light);border-radius:var(--radius-md);padding:14px 16px;display:flex;align-items:center;gap:12px;">
+                        <span style="font-size:0.7rem;font-weight:700;color:var(--primary);background:var(--primary-light);padding:3px 8px;border-radius:10px;white-space:nowrap;flex-shrink:0;">新发布</span>
+                        <span style="font-weight:500;font-size:0.9rem;color:var(--text);">揽菊天下数据看板功能升级，创作者可实时查看阅读数据</span>
+                        <span style="margin-left:auto;font-size:0.75rem;color:var(--text-muted);white-space:nowrap;">5小时前</span>
+                    </div>
+                    <div style="background:#fff;border:1px solid var(--border-light);border-radius:var(--radius-md);padding:14px 16px;display:flex;align-items:center;gap:12px;">
+                        <span style="font-size:0.7rem;font-weight:700;color:var(--warning);background:var(--warning-light);padding:3px 8px;border-radius:10px;white-space:nowrap;flex-shrink:0;">更新</span>
+                        <span style="font-weight:500;font-size:0.9rem;color:var(--text);">揽菊天下2026年第一季度选题指南已发布</span>
+                        <span style="margin-left:auto;font-size:0.75rem;color:var(--text-muted);white-space:nowrap;">8小时前</span>
+                    </div>
+                    <div style="background:#fff;border:1px solid var(--border-light);border-radius:var(--radius-md);padding:14px 16px;display:flex;align-items:center;gap:12px;">
+                        <span style="font-size:0.7rem;font-weight:700;color:var(--primary);background:var(--primary-light);padding:3px 8px;border-radius:10px;white-space:nowrap;flex-shrink:0;">新发布</span>
+                        <span style="font-weight:500;font-size:0.9rem;color:var(--text);">揽菊天下与三家数据机构达成内容合作</span>
+                        <span style="margin-left:auto;font-size:0.75rem;color:var(--text-muted);white-space:nowrap;">12小时前</span>
+                    </div>
+                </div>
+                @media (max-width: 768px) {
+                    .section-block .section-header+.topic-grid+div[style*="grid-template-columns"] {
+                        grid-template-columns: 1fr !important;
+                    }
+                }
+            </div>
+        </section>
+
+        <!-- ===== 板块：平台能力展示 ===== -->
+        <section class="section-block" aria-labelledby="capabilities-heading">
+            <div class="container-custom">
+                <div class="section-header">
+                    <h2 class="section-title" id="capabilities-heading">
+                        <span class="title-dot"></span>揽菊天下内容引擎能力
+                    </h2>
+                </div>
+                <div class="stats-cards-row">
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-green">🔍</div>
+                        <div class="stat-card-value">智能审核</div>
+                        <div class="stat-card-label">AI+人工双重质量把关，确保每篇文章准确可靠</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-blue">📊</div>
+                        <div class="stat-card-value">数据看板</div>
+                        <div class="stat-card-label">实时追踪阅读量、完读率与用户反馈数据</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-green">🔗</div>
+                        <div class="stat-card-value">多渠道分发</div>
+                        <div class="stat-card-label">内容同步分发至主流阅读平台与搜索引擎</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card-icon icon-amber">🛡️</div>
+                        <div class="stat-card-value">原创保护</div>
+                        <div class="stat-card-label">区块链存证+全网监测，守护创作者版权</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container-custom">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">揽菊天下</div>
+                    <p class="footer-desc">深度内容的生产与分发平台。用数据验证每一篇文章，为读者提供经得起推敲的优质信息。覆盖深度观察、人物特写、数据洞察与前沿趋势。</p>
+                </div>
+                <div>
+                    <h4>内容板块</h4>
+                    <ul>
+                        <li><a href="#depth-observe">深度观察</a></li>
+                        <li><a href="#people-feature">人物特写</a></li>
+                        <li><a href="#data-insight">数据洞察</a></li>
+                        <li><a href="#trend-frontier">前沿趋势</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>关于平台</h4>
+                    <ul>
+                        <li><a href="#">创作者计划</a></li>
+                        <li><a href="#">内容标准</a></li>
+                        <li><a href="#">数据说明</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>关注揽菊天下</h4>
+                    <ul>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">RSS订阅</a></li>
+                        <li><a href="#">邮件通讯</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 揽菊天下 · 深度内容引擎 · ljtx.pages.dev
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== 移动端导航脚本 ==================== -->
+    <script>
+        (function() {
+            var burger = document.getElementById('navbarBurger');
+            var menu = document.getElementById('navbarMenu');
+            if (burger && menu) {
+                burger.addEventListener('click', function() {
+                    menu.classList.toggle('is-active');
+                    var expanded = menu.classList.contains('is-active');
+                    burger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+                });
+                // 点击导航链接后关闭菜单
+                var navLinks = menu.querySelectorAll('.nav-link');
+                navLinks.forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        menu.classList.remove('is-active');
+                        burger.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+            // 语言切换按钮
+            var langBtns = document.querySelectorAll('.lang-switch .lang-btn');
+            langBtns.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    langBtns.forEach(function(b) {
+                        b.classList.remove('lang-active');
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    this.classList.add('lang-active');
+                    this.setAttribute('aria-pressed', 'true');
+                });
+            });
+            // 数据行复选框联动
+            var checkboxes = document.querySelectorAll('.data-row .col-check input[type="checkbox"]');
+            checkboxes.forEach(function(cb) {
+                cb.addEventListener('change', function() {
+                    var row = this.closest('.data-row');
+                    if (this.checked) {
+                        row.classList.add('row-selected');
+                    } else {
+                        row.classList.remove('row-selected');
+                    }
+                });
+            });
+        })();
+    </script>
+</body>
+</html
+</main>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container-custom">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">揽菊天下</div>
+                    <p class="footer-desc">深度内容的生产与分发平台。用数据验证每一篇文章，为读者提供经得起推敲的优质信息。覆盖深度观察、人物特写、数据洞察与前沿趋势。</p>
+                </div>
+                <div>
+                    <h4>内容板块</h4>
+                    <ul>
+                        <li><a href="#depth-observe">深度观察</a></li>
+                        <li><a href="#people-feature">人物特写</a></li>
+                        <li><a href="#data-insight">数据洞察</a></li>
+                        <li><a href="#trend-frontier">前沿趋势</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>关于平台</h4>
+                    <ul>
+                        <li><a href="#">创作者计划</a></li>
+                        <li><a href="#">内容标准</a></li>
+                        <li><a href="#">数据说明</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>关注揽菊天下</h4>
+                    <ul>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">RSS 订阅</a></li>
+                        <li><a href="#">邮件通讯</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 揽菊天下 · 深度内容引擎 · ljtx.pages.dev</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== 移动端导航脚本 ==================== -->
+    <script>
+        (function() {
+            var burger = document.getElementById('navbarBurger');
+            var menu = document.getElementById('navbarMenu');
+            if (burger && menu) {
+                burger.addEventListener('click', function() {
+                    menu.classList.toggle('is-active');
+                    var expanded = menu.classList.contains('is-active');
+                    burger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+                });
+                var navLinks = menu.querySelectorAll('.nav-link');
+                navLinks.forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        menu.classList.remove('is-active');
+                        burger.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+            var langBtns = document.querySelectorAll('.lang-switch .lang-btn');
+            langBtns.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    langBtns.forEach(function(b) {
+                        b.classList.remove('lang-active');
+                        b.setAttribute('aria-pressed', 'false');
+                    });
+                    this.classList.add('lang-active');
+                    this.setAttribute('aria-pressed', 'true');
+                });
+            });
+            var checkboxes = document.querySelectorAll('.data-row .col-check input[type="checkbox"]');
+            checkboxes.forEach(function(cb) {
+                cb.addEventListener('change', function() {
+                    var row = this.closest('.data-row');
+                    if (this.checked) {
+                        row.classList.add('row-selected');
+                    } else {
+                        row.classList.remove('row-selected');
+                    }
+                });
+            });
+        })();
+    </script>
+
+</body>
+</html>
